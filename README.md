@@ -91,13 +91,14 @@ ggplot(res, aes(x = log2FoldChange, y = -log10(pvalue))) +
 
 📜 MIT License – Open-source and free to use!
 ## 🌍 Uploading to GitHub
-
+```bash
 git init
 git add .
 git commit -m "Initial commit: RNA-Seq pipeline"
 git branch -M main
 git remote add origin https://github.com/your-username/RNA-Seq-Pipeline.git
 git push -u origin main
+```
 
 ## ⚡ Optional: Conda Environment
 
