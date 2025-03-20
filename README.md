@@ -103,7 +103,7 @@ git push -u origin main
 ## ⚡ Optional: Conda Environment
 
 To create an isolated environment:
-
+```bash
 name: rnaseq_pipeline
 channels:
   - bioconda
@@ -120,7 +120,7 @@ dependencies:
 
 conda env create -f environment.yml
 conda activate rnaseq_pipeline
-
+```
 ## 📌 Final Notes
 
 ✅ Fully automated, easy-to-run pipeline for RNA-Seq analysis
